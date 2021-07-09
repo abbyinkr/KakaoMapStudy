@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MapTest009.html</title>
+
+<!-- ○ 발급받은 App key -->
+<!-- bd09ce639b4d15a75a15c9b493530d9a -->
+<!-- ○ 지도의 중심 좌표 -->
+<!-- 37.556583, 126.919521 -->
+
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bd09ce639b4d15a75a15c9b493530d9a"></script>
+
+<script type="text/javascript">
+
+   function initialize()
+   {
+      
+   }
+
+</script>
+
+</head>
+<body onload="initialize()">
+
+<div>
+   <h1>Kakao Map 드래그 제한/허용</h1>
+   <hr>
+</div>
+
+<!-- 지도를 그릴 div 공간 확보(지정) -->
+<div id="map" style="width: 100%; height: 350px;"></div>
+
+<div>
+   <p>
+      <button type="button" onclick="">드래그 제한(불가)</button>
+      <button type="button" onclick="">드래그 허용(가능)</button>
+   </p>
+</div>
+
+
+</body>
+</html>

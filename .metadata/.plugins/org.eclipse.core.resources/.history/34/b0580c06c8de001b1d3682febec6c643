@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MapTest005.html</title>
+
+<!-- 발급받은 App Key -->
+<!-- c980959de9d6957591bdf2f69c03ce68 -->
+<!-- 지도의 중심 좌표 -->
+<!-- 37.556506, 126.919500 -->
+
+</head>
+<body onload="initialize()">
+
+<div>
+	<h1>Kakao Map 레벨 전환</h1>
+</div>
+
+<!— 지도를 그릴 div 공간 확보(지정) -->
+<div id="map" style="width: 100%; height: 350px;"></div>
+
+
+</body>
+</html>
